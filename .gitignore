@@ -1,5 +1,6 @@
-# Dependencies
+# Node modules (dependencies)
 node_modules/
+**/node_modules/
 
 # Build output
 build/
@@ -28,7 +29,7 @@ pnpm-debug.log*
 *.sublime-workspace
 *.sublime-project
 
-# Testing
+# Testing and coverage
 coverage/
 
 # Misc
@@ -37,3 +38,10 @@ coverage/
 # Optional cache
 .cache/
 .npm/
+
+# Next.js (if used)
+.next/
+
+# Temporary files
+tmp/
+temp/
